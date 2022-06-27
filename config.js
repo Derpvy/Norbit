@@ -1,7 +1,7 @@
 module.exports = {
-  Admins: [""],
-  ExpressServer: true,
-  DefaultPrefix: process.env.Prefix || ">",
+  Admins: ["admin(s) id here"],
+  ExpressServer: false,
+  DefaultPrefix: process.env.Prefix || "prefix here",
   Port: port_here,
   SupportServer: "",
   Token: process.env.Token || "",
@@ -19,7 +19,7 @@ module.exports = {
    Lavalink: {
     id: "Main",
     host: "lv.vellerius.tk",
-    port: 8027,
+    port: 2333,
     pass: "derpilava", 
   },
   
